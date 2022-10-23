@@ -1,9 +1,17 @@
 <h1 align="center">
-  HBO Max
+  HBO Max Redesign Home
 </h1>
 
 <p align="center">
   <img alt="" src=".github/preview.jpg" width="100%">
+</p>
+
+<h1 align="center">
+  HBO Max Redesign Movie
+</h1>
+
+<p align="center">
+  <img alt="" src=".github/movie.jpg" width="100%">
 </p>
 
 <p align="center">
@@ -22,12 +30,6 @@
 
 <p align="center">
   <img alt="" src=".github/logo-plane.svg" width="10%">
-</p>
-
-<br>
-
-<p align="center">
-  <img alt="" src=".github/preview-desktop.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
