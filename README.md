@@ -15,9 +15,9 @@
 <p align="center">
  <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=5822b4&labelColor=991eeb" alt="License">
 
-  <img src="https://img.shields.io/github/forks/birobirobiro/live-twitch-hbo-max?label=forks&message=MIT&color=5822b4&labelColor=991eeb" alt="Forks">
+  <img src="https://img.shields.io/github/forks/WellersonDouglas/hbo-max-redesign-web?label=forks&message=MIT&color=5822b4&labelColor=991eeb" alt="Forks">
 
-  <img src="https://img.shields.io/github/stars/birobirobiro/live-twitch-hbo-max?label=stars&message=MIT&color=5822b4&labelColor=991eeb " alt="Stars">
+  <img src="https://img.shields.io/github/stars/WellersonDouglas/hbo-max-redesign-web?label=stars&message=MIT&color=5822b4&labelColor=991eeb " alt="Stars">
 </p>
 
 <p align="center">
