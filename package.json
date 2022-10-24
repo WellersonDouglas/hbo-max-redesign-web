@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "sync": "browser-sync start --server --files \"**/*\""
   },
   "keywords": [],
