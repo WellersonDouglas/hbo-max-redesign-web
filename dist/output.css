@@ -1010,3 +1010,13 @@ video {
   outline-color: #fff;
 }
 
+@media (min-width: 1536px) {
+  .\32xl\:justify-around {
+    justify-content: space-around;
+  }
+
+  .\32xl\:gap-10 {
+    gap: 2.5rem;
+  }
+}
+
