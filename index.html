@@ -5,32 +5,34 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="http://fonts.cdnfonts.com/css/gilroy-medium" rel="stylesheet">
-	<!-- <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet"> -->
+	<link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
 
 	<title>HBO Max Redesign Web App</title>
 	<link href="/dist/output.css" rel="stylesheet">
 </head>
-<body class="bg-spider-man bg-no-repeat bg-cover text-white">
+<body class="bg-spider-man bg-no-repeat bg-cover text-white scrollbar-thin scrollbar-track-rounded-lg
+scrollbar-thumb-rounded-lg scrollbar-thumb-violet-700 scrollbar-track-gray-100">
 	<div class="p-12">
+		<!-- Header -->
 		<header class="backdrop-blur-sm bg-black/40 rounded-3xl flex items-center justify-between h-20 px-12 py-5">
 			<div>
 				<img src="/src/assets/logo.svg
 				" alt="LogoMarca">
 			</div>
 
-			<div class="font-gilroy font-normal">
+			<div class="font-gilroy-medium font-normal">
 				<nav>
-					<ul class="flex gap-12 text-xl">
-						<a href="">
+					<ul class="flex gap-12 text-xl ">
+						<a href="" class="hover:text-violet-500">
 							<li>Movies</li>
 						</a>
-						<a href="">
+						<a href="" class="hover:text-violet-500">
 							<li>TV shows</li>
 						</a>
-						<a href="">
+						<a href="" class="hover:text-violet-500">
 							<li>Animations</li>
 						</a>
-						<a href="">
+						<a href="" class="hover:text-violet-500">
 							<li>Upgrade</li>
 						</a>
 					</ul>
@@ -38,10 +40,47 @@
 			</div>
 
 			<div>
-				<img class="w-12 rounded-full" src="https://github.com/WellersonDouglas.png"  alt="">
+				<img class="w-12 rounded-full cursor-pointer hover:outline-violet-700 hover:outline" src="https://github.com/WellersonDouglas.png"  alt="">
 			</div>
 
 		</header>
+
+		<!-- Main -->
+		<main class="py-16">
+			<div>
+				<p class="text-xl">2021 | PG-13 | 2h 28m</p>
+
+				<h1 class="uppercase text-7xl font-gilroy-bold leading max-w-lg my-3">Spider-Man: No Way Home</h1>
+
+
+				<h2 class="text-3xl mb-5">Action | Adventure | Fantasy</h2>
+
+				<div class="flex items-center gap-4">
+					<img src="/src/assets/IMDB_Logo.svg" alt="">
+					<span class="text-2xl">8.5</span>
+				</div>
+			</div>
+
+			<button class="mt-7 flex items-center rounded-md outline outline-offset-2 outline-1 outline-violet-700 p-4 gap-2 text-lg hover:outline-white hover:bg-violet-700">
+				<img src="/src/assets/Frame.svg" alt="">
+				Watch Now
+			</button>
+		</main>
+
+		<!-- Popular Collections -->
+		<section>
+			<h2 class="font-gilroy-bold text-3xl">Popular Collections</h2>
+
+			<div class="mt-5 flex gap-5 py-4 overflow-auto scrollbar-thin scrollbar-track-rounded-lg
+			scrollbar-thumb-rounded-lg scrollbar-thumb-violet-700 scrollbar-track-gray-100 touch-auto">
+				<img src="/src/assets/1.png" alt="">
+				<img src="/src/assets/2.png" alt="">
+				<img src="/src/assets/3.png" alt="">
+				<img src="/src/assets/4.png" alt="">
+				<img src="/src/assets/5.png" alt="">
+				<img src="/src/assets/6.png" alt="">
+			</div>
+		</section>
 	</div>
 </body>
 </html>

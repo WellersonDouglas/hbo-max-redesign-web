@@ -7,9 +7,13 @@ module.exports = {
         'spider-man': "url('/src/assets/background.jpg')",
       },
       fontFamily: {
-        gilroy: ['Gilroy-Medium', 'sans-serif'],
+        'gilroy-bold': ['Gilroy-Bold', 'sans-serif'],
+        'gilroy-medium': ['Gilroy-Medium', 'sans-serif'],
       },
     },
   },
-  plugins: [],
+  plugins: [
+    // Teste
+    require('tailwind-scrollbar')({ nocompatible: true }),
+  ],
 }
