@@ -10,7 +10,7 @@
 	<title>HBO Max Redesign Web App</title>
 	<link href="/dist/output.css" rel="stylesheet">
 </head>
-<body class="bg-spider-man bg-no-repeat bg-cover text-white scrollbar-thin scrollbar-track-rounded-lg
+<body class="font-gilroy-medium bg-zinc-900 bg-spider-man bg-no-repeat bg-cover overflow-x-hidden text-white scrollbar-thin scrollbar-track-rounded-lg
 scrollbar-thumb-rounded-lg scrollbar-thumb-violet-700 scrollbar-track-gray-100">
 	<div class="p-12">
 		<!-- Header -->
@@ -71,9 +71,12 @@ scrollbar-thumb-rounded-lg scrollbar-thumb-violet-700 scrollbar-track-gray-100">
 		<section>
 			<h2 class="font-gilroy-bold text-3xl">Popular Collections</h2>
 
-			<div class="mt-5 flex gap-5 py-4 overflow-auto scrollbar-thin scrollbar-track-rounded-lg
-			scrollbar-thumb-rounded-lg scrollbar-thumb-violet-700 scrollbar-track-gray-100 touch-auto">
+			<div class="mt-5 flex gap-5 py-4 overflow-x-auto scrollbar-thin scrollbar-track-rounded-lg
+			scrollbar-thumb-rounded-lg scrollbar-thumb-violet-700 scrollbar-track-gray-100 touch-auto cursor-pointer">
 				<img src="/src/assets/1.png" alt="">
+				<a href="/movie.html">
+					<img class="max-w-[17.5rem] rounded-xl" src="/src/assets/7.png" alt="">
+				</a>
 				<img src="/src/assets/2.png" alt="">
 				<img src="/src/assets/3.png" alt="">
 				<img src="/src/assets/4.png" alt="">
@@ -81,6 +84,23 @@ scrollbar-thumb-rounded-lg scrollbar-thumb-violet-700 scrollbar-track-gray-100">
 				<img src="/src/assets/6.png" alt="">
 			</div>
 		</section>
+		<!--New Releases -->
+		<section>
+			<h2 class="text-3xl font-gilroy-bold mt-12">New Releases</h2>
+
+			<div class="mt-5 flex gap-5 py-4 overflow-auto scrollbar-thin scrollbar-track-rounded-lg
+			scrollbar-thumb-rounded-lg scrollbar-thumb-violet-700 scrollbar-track-gray-100 touch-auto">
+				<img src="/src/assets/bottom-movies-1.png
+				" alt="">
+				<img src="/src/assets/bottom-movies-2.png
+				" alt="">
+				<img src="/src/assets/bottom-movies-3.png
+				" alt="">
+				<img src="/src/assets/bottom-movies-4.png
+				" alt="">
+			</div>
+		</section>
+
 	</div>
 </body>
 </html>
